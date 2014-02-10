@@ -1,0 +1,97 @@
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0 0 1em 0;
+	font-size: 93%;
+	line-height: 1.5em;
+}
+
+html, body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+.section-fullwidth {
+	padding: 0 25px;
+	margin: 0 auto;
+}
+
+/* section inner */
+.section-inner {
+	max-width: 960px;
+	padding: 0 25px;
+	margin: 0 auto;
+}
+
+/* header */
+.header {
+	padding: 5px 0 5px;
+	background-color: rgba(100,10,10,0.0);
+}
+	
+/* logo */
+.logo-class {
+	float: left;
+}
+
+.logo-class img {
+	width: 70px;
+}
+
+/* navigation */
+.main-nav {
+	float: right;
+	line-height: 100%;
+	font-size: 18px;
+}
+
+.main-nav ul {
+	margin: 0;
+	padding: 20px 0 0;
+}
+
+.main-nav ul li {
+	list-style: none;
+	float: left;
+	font-family: "Raleway-Regular";
+	font-weight: 200px;
+}
+
+.main-nav ul li a:link, .main-nav ul li a:visited {
+	display: block;
+	padding: 10px 10px;
+	text-decoration: none;
+	color: #000;
+}
+
+.apply-btn {
+	background-color: rgba(2, 72, 99, 1);#cd3f37;
+	color: #eee !important;
+	border-radius: 2px;
+}
+
+/* welcome message */
+.welcome-msg {
+	margin: 10px 0;
+	background-color: rgba(2, 72, 99, 1);
+}
+
+.welcome-msg .msg {
+	text-align: center;
+	font-size: 34px;
+	padding: 3em 0;
+	font-family: "Raleway-Regular";
+	color: #fff;
+}
+
+
+
+
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }

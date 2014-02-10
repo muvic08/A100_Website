@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Raleway-Light";
+    src: url("../fonts/Raleway/Raleway-Light.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Raleway-Regular";
+    src: url("../fonts/Raleway/Raleway-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Raleway-Medium";
+    src: url("../fonts/Raleway/Raleway-Medium.otf") format("truetype");
+}
+
