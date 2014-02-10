@@ -5,3 +5,32 @@
 .main-nav .second {
 	display: block;
 }
+
+.hidden-nav {
+	background: ;
+}
+
+.hidden-nav ul {
+	padding: 0 0 10px;
+}
+
+.hidden-nav ul li:first-child {
+	border-top: 1px solid rgba(2, 72, 99, 0.5);
+}
+
+.hidden-nav ul li {
+	border-bottom: 1px solid rgba(2, 72, 99, 0.5);
+	font-family: "Raleway-Regular";
+	font-weight: 200px;
+	text-align: center;
+}
+
+.hidden-nav ul li a:link, .hidden-nav ul li a:visited {
+	display: block;
+	padding: 10px 10px;
+	color: #000;
+}
+
+.hidden-nav ul li a:hover {
+	color: rgba(168,3,146,1);
+}
