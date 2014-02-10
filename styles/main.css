@@ -74,6 +74,14 @@ html, body {
 	border-radius: 2px;
 }
 
+/* nav displays */
+.main-nav .first {
+	display: block;
+}
+
+.main-nav .second {
+	display: none;
+}
 /* welcome message */
 .welcome-msg {
 	margin: 10px 0;

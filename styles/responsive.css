@@ -1,0 +1,7 @@
+.main-nav .first {
+	display: none;
+}
+
+.main-nav .second {
+	display: block;
+}
