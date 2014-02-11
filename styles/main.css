@@ -21,6 +21,7 @@ html, body {
 	padding: 0;
 	margin: 0;
 	width: 100%;
+	background: rgba(240,240,240,1);
 }
 
 .section-fullwidth {
@@ -106,16 +107,47 @@ html, body {
 }
 
 .welcome-msg .msg {
-	text-align: center;
+	text-align: right;
 	font-size: 34px;
 	padding: 3em 0;
 	font-family: "Raleway-Regular";
 	color: #fff;
 }
 
+.active-link {
+	color: rgba(168,3,146,1) !important;
+}
 
+.program {
+	margin: 40px auto 20px;
+}
+/* one-third */
+.one-third {
+	width: 32.666%;
+	float: left;
+	margin-right: 1%;
+	background-color: rgba(0,0,0,0.2);
+	height: 200px;
+	border-radius: 2px;
+	padding: 10px 0;
+	text-indent: 10px;
+}
 
+/* one-half */
+.one-half {
+	width: 49%;
+	float: left;
+	margin-right: 2%;
+	background-color: rgba(0,0,0,0.2);
+	height: 200px;
+	border-radius: 2px;
+	padding: 10px 0;
+	text-indent: 10px;
+}
 
+.multi-column div:last-child {
+	margin-right: 0;
+}
 
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
