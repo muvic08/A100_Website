@@ -128,10 +128,8 @@ html, body {
 	float: left;
 	margin-right: 1%;
 	background-color: rgba(0,0,0,0.0);
-	height: 200px;
 	border-radius: 2px;
 	padding: 10px 0;
-	text-indent: 10px;
 	position: relative;
 }
 
