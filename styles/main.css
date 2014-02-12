@@ -152,3 +152,5 @@ html, body {
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
 .clearfix { *zoom: 1; }
+
+div.kevin-circle {border: 1px black solid; border-radius: 200px; width:100px; height: 100px;}
