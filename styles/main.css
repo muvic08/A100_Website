@@ -161,4 +161,17 @@ html, body {
 .clearfix:after { clear: both; }
 .clearfix { *zoom: 1; }
 
-div.kevin-circle {border: 1px black solid; border-radius: 200px; width:100px; height: 100px;}
+.heading-line {
+	height: 10px;
+	border-top: 1px solid black;
+	margin: 30px auto 10px !important;
+}
+
+.one-title {
+	margin: -1.25em auto 0 !important;
+	background: rgba(240,240,240,1);
+	width: 135px;
+	padding: 10px;
+	font-size: 24px;
+	text-align: center;
+}
