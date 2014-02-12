@@ -1,5 +1,5 @@
 /* one-third */
-.one-third {
+.one-third, .one-half {
 	width: 100%;
 	margin: 10px 0;
 }
