@@ -103,7 +103,8 @@ html, body {
 /* welcome message */
 .welcome-msg {
 	margin: 10px 0;
-	background-color: rgba(2, 72, 99, 1);
+	background-color: rgba(34,65,96,1);rgba(68,111,156,1);rgba(2, 72, 99, 1);
+	/* (A 123, 18, 25) */
 }
 
 .welcome-msg .msg {
@@ -115,7 +116,7 @@ html, body {
 }
 
 .active-link {
-	color: rgba(168,3,146,1) !important;
+	color: rgba(123, 18, 25, 1) !important; rgba(168,3,146,1);
 }
 
 .program {
@@ -126,11 +127,20 @@ html, body {
 	width: 32.666%;
 	float: left;
 	margin-right: 1%;
-	background-color: rgba(0,0,0,0.2);
+	background-color: rgba(0,0,0,0.0);
 	height: 200px;
 	border-radius: 2px;
 	padding: 10px 0;
 	text-indent: 10px;
+	position: relative;
+}
+
+.circle  {
+	width: 100px;
+	height: 100px;
+	background-color: grey;
+	border-radius: 150px;
+	margin: auto !important;
 }
 
 /* one-half */
