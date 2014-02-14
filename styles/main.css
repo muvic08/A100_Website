@@ -175,3 +175,11 @@ html, body {
 	font-size: 24px;
 	text-align: center;
 }
+p.circle-inner {
+	padding: 2.5em 0;
+	font-weight: bold;
+	text-align: center;
+}
+ p.one-third-p {
+ 	padding: 1em;
+ }
